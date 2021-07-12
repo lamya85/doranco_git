@@ -50,9 +50,22 @@ Exercice:
 -5 créer un fichier secret.txt (avec un peu de contenu)
 -6 indiquer à git d'ignorer secret.txt
 -7 tout envoyer sur le dépôt en ligne
+----------------------------------------------------------------------------
+
+Sur une branche parallèle, j'ai push (envoyé sur le dépôt en ligne) mon travail. (Sur la branche inscription, git
+push origin connexion)
+- j'ai crée une pull request en allant sur le lien indiqué par GIT
+- j'ai laissé un commentaire 
+- la personne qui s'occupe de faire les merges (les fusions de branches) ouvre la pull request et confirm la fusion 
+si le travail lui convient
+ - les branches (inscription et master) ont fusionné, les collaborateurs  
 
 
 
+
+
+
+ 
 
 
 
