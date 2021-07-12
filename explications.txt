@@ -34,9 +34,22 @@ git branch -l : liste des branches
 git branch <nom d'une branche inexistante> : crée une branche
 git branch -D <nom d'une branche existante> : supprime une branche
 
+impossible de supprimer une branche si on est déjà positionné dessus
+
 master : branche principale
 
- 
+.gitignore : permet d'indiquer à GIT d'ignorer les fichiers/dossiers dont le nom est écrit dans le .gitignore
+
+--------------------------------------------------------------
+Exercice:
+
+-1 créer un nouveau dépôt en ligne (doranco_exo_git)
+-2 créer un nouveau dépôt en local
+-3 lier le dépôt en ligne avec le dépôt local
+-4 créer un index.html (avec un peu de contenu)
+-5 créer un fichier secret.txt (avec un peu de contenu)
+-6 indiquer à git d'ignorer secret.txt
+-7 tout envoyer sur le dépôt en ligne
 
 
 
