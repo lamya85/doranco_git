@@ -18,6 +18,53 @@ git status : donne des infos sur le dépôt
 git commit -m "message de commit" : créer une version du dépôt avec un message
 git log : afficher l'historique des commits
 
+git remote add <nom du remote> <lien vers le dépôt> : créer un lien entre le dépôt local et le dépôt distant
+
+    - git remote add origin <lien-vers-le-dépôt.git>
+git push <remote> <nom de la branche>: envoie le contenu du dépôt local sur le dépôt en ligne
+    - git push origin master : envoie sur la branche principale en ligne
+
+pour modifier le dernier message de commit après un push : 
+- git commit --amend -m "nouveau message de commit"
+- git push <remote> <branche> -f
+
+git checkout -b <nom de la branche inexistante> : crée une branche et je me positionne sur celle-ci 
+git checkout <nom d'une branche existante> : je me positionne sur la branche indiquée
+
+git branch -l : liste des branches
+git branch <nom d'une branche inexistante> : crée une branche
+git branch -D <nom d'une branche existante> : supprime une branche
+
+impossible de supprimer une branche si on est déjà positionné dessus
+
+master : branche principale
+
+.gitignore : permet d'indiquer à GIT d'ignorer les fichiers/dossiers dont le nom est écrit dans le .gitignore
+
+--------------------------------------------------------------
+Exercice:
+
+-1 créer un nouveau dépôt en ligne (doranco_exo_git)
+-2 créer un nouveau dépôt en local
+-3 lier le dépôt en ligne avec le dépôt local
+-4 créer un index.html (avec un peu de contenu)
+-5 créer un fichier secret.txt (avec un peu de contenu)
+-6 indiquer à git d'ignorer secret.txt
+-7 tout envoyer sur le dépôt en ligne
+----------------------------------------------------------------------------
+
+Sur une branche parallèle, j'ai push (envoyé sur le dépôt en ligne) mon travail. (Sur la branche inscription, git
+push origin connexion)
+- j'ai crée une pull request en allant sur le lien indiqué par GIT
+- j'ai laissé un commentaire 
+- la personne qui s'occupe de faire les merges (les fusions de branches) ouvre la pull request et confirm la fusion 
+si le travail lui convient
+ - les branches (inscription et master) ont fusionné, les collaborateurs  
+
+
+
+
+
 
 
 

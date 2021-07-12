@@ -6,11 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Début de la page connexion.php</p>
-
-    <p>Suite de la page</p>
-
-    <p>fin de la page</p>
-
+    <p>Mon formulaire</p>
 </body>
 </html>
