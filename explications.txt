@@ -17,6 +17,28 @@ git add <noms des fichiers> : on envoie les fichiers dans l'index en attente de 
 git status : donne des infos sur le dépôt
 git commit -m "message de commit" : créer une version du dépôt avec un message
 git log : afficher l'historique des commits
+git remote add <nom du remote> <lien vers le dépôt> : créer un lien entre le dépôt local et le dépôt distant
+
+    - git remote add origin <lien-vers-le-dépôt.git>
+git push <remote> <nom de la branche>: envoie le contenu du dépôt local sur le dépôt en ligne
+    - git push origin master : envoie sur la branche principale en ligne
+
+pour modifier le dernier message de commit après un push : 
+- git commit --amend -m "nouveau message de commit"
+- git push <remote> <branche> -f
+
+git checkout -b <nom de la branche inexistante> : crée une branche et je me positionne sur celle-ci 
+git checkout <nom d'une branche existante> : je me positionne sur la branche indiquée
+
+git branch -l : liste des branches
+git branch <nom d'une branche inexistante> : crée une branche
+git branch -D <nom d'une branche existante> : supprime une branche
+
+master : branche principale
+
+ 
+
+
 
 
 
