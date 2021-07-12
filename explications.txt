@@ -1,0 +1,12 @@
+Git est un outil de Versionning = VCS (Version Control System)
+Il permet d'avoir plusieurs versions des fichiers qui composent notre application (site web ou autre), et ainsi
+travailler en équipe tout en gardant des historiques des fichiers sur lesquels on travaille.
+
+Il existe plusieurs concurrents de GIT (SVN...) mais GIT est le plus utilisé.
+
+GITHUB est ce qu'on appelle un hébergeur de repositories (dépôts) GIT. C'est à dire qu'il se charge d'héberger
+les versions de notre application est ainsi nous pouvons y accéder en ligne.
+
+Il existe plusieurs hébergeurs (GITBUCKET...) mais Github est le plus utilisé.
+
+git init : initialise un dépôt (repository) git
