@@ -10,3 +10,15 @@ les versions de notre application est ainsi nous pouvons y accéder en ligne.
 Il existe plusieurs hébergeurs (GITBUCKET...) mais Github est le plus utilisé.
 
 git init : initialise un dépôt (repository) git
+git config --global user.name "prénom NOM"
+git config --global user.email "votre adresse mail"
+git config --list (appuyer sur Q pour quitter)
+git add <noms des fichiers> : on envoie les fichiers dans l'index en attente de commit
+git status : donne des infos sur le dépôt
+git commit -m "message de commit" : créer une version du dépôt avec un message
+git log : afficher l'historique des commits
+
+
+
+
+
