@@ -17,6 +17,7 @@ git add <noms des fichiers> : on envoie les fichiers dans l'index en attente de 
 git status : donne des infos sur le dépôt
 git commit -m "message de commit" : créer une version du dépôt avec un message
 git log : afficher l'historique des commits
+
 git remote add <nom du remote> <lien vers le dépôt> : créer un lien entre le dépôt local et le dépôt distant
 
     - git remote add origin <lien-vers-le-dépôt.git>
@@ -64,8 +65,6 @@ si le travail lui convient
 
 
 
-
- 
 
 
 
